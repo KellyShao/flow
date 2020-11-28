@@ -28,7 +28,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.mobile.NetworkConnection;
 
 import com.vaadin.flow.testutil.ChromeDeviceTest;
+import net.jcip.annotations.NotThreadSafe;
 
+@NotThreadSafe
 public class ServiceWorkerIT extends ChromeDeviceTest {
 
     @Test
